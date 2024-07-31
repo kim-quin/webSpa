@@ -58,7 +58,8 @@ const Home = () => {
 
             <div className='flexColStart Intro-des'>
               <span>
-                Nâng niu sắc đẹp, chăm sóc từ tâm.
+                Quinn's Beauty sẽ giúp bạn giải tỏa áp lực cuộc giống.<br/> Tỏa sáng với nét đẹp tự nhiên.<br/>
+                Trải nghiệm ngay!
               </span>
             </div>
 

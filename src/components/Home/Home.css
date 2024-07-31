@@ -72,6 +72,7 @@
 .intro-title{
   position: relative;
   z-index: 1;
+  margin-bottom: -10px;
 }
 
 .intro-title>h1{
@@ -83,11 +84,14 @@
 .Intro-des{
   font-size: 25px;
   font-weight: 500;
+  margin-top: -10px;
+  margin-bottom: 50px;
 }
 
 .ggmap-bar{
   font-family:" Popins", sans-serif;
-}
+  margin-bottom: -20px;
+} 
 
 i{
   color: blue;
@@ -101,14 +105,14 @@ i{
 .engagement-section {
   display: flex;
   align-items: center;
-  margin-top: 20px;
+  margin-top: 0px;
 }
 
 
 .like-section, .view-section {
   display: flex;
   align-items: center;
-  margin-right: 50px; /* Thay đổi giá trị này để tăng khoảng cách giữa các phần tử */
+  margin-right: 10rem; /* Thay đổi giá trị này để tăng khoảng cách giữa các phần tử */
 }
 
 .like-btn {
