@@ -87,7 +87,6 @@
 
 .ggmap-bar{
   font-family:" Popins", sans-serif;
-
 }
 
 i{
@@ -142,6 +141,7 @@ i{
 }
 
 .view-section {
+  font-size: 16px;
   color: white;
   display: flex;
   align-items: center;
@@ -156,8 +156,8 @@ i{
   
 }
 
-.view-section .view-text {
-  color: #007bff; /* Tô xanh cho chữ "Lượt quan tâm" */
+.view-text {
+  color: #fffdfd; /* Tô xanh cho chữ "Lượt quan tâm" */
   font-size: 16px;
 }
 
