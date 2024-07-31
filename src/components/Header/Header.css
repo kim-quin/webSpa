@@ -1,0 +1,36 @@
+.h-wrapper {
+    background: var(--black); 
+    height: 150px;
+}
+
+.h-container {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    height: 100px; 
+    padding: 0 20px; 
+}
+
+.logo {
+    width: 140px; 
+    height: 140px;
+   
+}
+
+.h-menu {
+    display: flex;
+    align-items: center; 
+    margin-left: auto; 
+}
+
+.h-menu a {
+    font-size: 15px;
+    color: white; 
+    margin: 0 10px; 
+    text-decoration: none; 
+}
+
+.button {
+    margin-left: 15px; 
+}
+
