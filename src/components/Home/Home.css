@@ -1,0 +1,184 @@
+.h-wrapper {
+    background: var(--gray); 
+    height: 150px;
+}
+
+.h-container {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    height: 100px; 
+    padding: 0 20px; 
+}
+
+.logo {
+    width: 140px; 
+    height: 140px;
+   
+}
+
+.h-menu {
+    display: flex;
+    align-items: center; 
+    margin-left: auto; 
+}
+
+.h-menu a {
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(0, 0, 0); 
+    margin: 0 10px; 
+    text-decoration: none; 
+}
+
+.button {
+    margin-left: 15px; 
+}
+
+
+
+
+/* TITLE */
+
+
+.title-wrapper{
+    color: rgb(0, 0, 0);
+    position:relative ;
+    padding-bottom: 2rem;
+    background: var(--gray) ;
+  }
+  
+  .title-container{
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+.orange-circle{
+  height: 4rem;
+  width: 4rem;
+  background: var(--orange-gradient);
+  border-radius: 800px;
+  position: absolute;
+  right: 48%;
+  top: -20%;
+  z-index: -1;
+}
+
+/* left */
+.title-left{
+  gap: 3rem;
+}
+
+.intro-title{
+  position: relative;
+  z-index: 1;
+}
+
+.intro-title>h1{
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 4rem;
+}
+
+.Intro-des{
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.ggmap-bar{
+  font-family:" Popins", sans-serif;
+
+}
+
+i{
+  color: blue;
+  font-size: 25px;
+  margin-right: 10px;
+}
+
+
+/* like và mat xem */
+
+.engagement-section {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+
+.like-section, .view-section {
+  display: flex;
+  align-items: center;
+  margin-right: 50px; /* Thay đổi giá trị này để tăng khoảng cách giữa các phần tử */
+}
+
+.like-btn {
+  display: inline-flex;
+  align-items: center;
+  background-color: #007bff; /* Màu nền xanh cho nút Like */
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px 0px 0px 5px;
+}
+
+.like-btn i {
+  margin-right: 5px;
+}
+
+.like-count {
+  font-size: 20px;
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  background-color: #007bff; /* Màu nền xanh cho nút Like */
+  color: white;
+  border: none;
+  border-radius: 0px 5px 5px 0px;
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+.view-section {
+  color: white;
+  display: flex;
+  align-items: center;
+  border: 2px solid #007bff; /* Khung màu xanh quanh phần "Lượt quan tâm" */
+  border-radius: 5px;
+  padding: 5px 10px;
+  background-color: #007bff; /* Màu nền sáng để nổi bật khung xanh */
+}
+
+.view-section i {
+  margin-right: 5px;
+  
+}
+
+.view-section .view-text {
+  color: #007bff; /* Tô xanh cho chữ "Lượt quan tâm" */
+  font-size: 16px;
+}
+
+.view-count {
+  margin-left: 10px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+  /*right*/
+  .image-container{
+    width: 30rem;
+    height: 30rem;
+    overflow: hidden;
+    border-radius: 15rem 15rem 0 0 ;
+    border: 8px solid rgba(255, 255, 255, 0.12);
+  }
+
+  .image-container>img{
+    width: 100%;
+    height: 100%;
+  }
+
+
