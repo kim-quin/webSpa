@@ -24,12 +24,12 @@ const Home = () => {
   }, []);
 
   return (
-    <div className="font-sans">
-      <section className="bg-[#F6E6CB] h-40 flex items-center">
-        <div className="flex justify-between items-center w-full px-5">
+    <div className="font-sans ">
+      <section className="bg-[#F6E6CB] h-50 flex items-center font-semibold">
+        <div className="flex justify-between items-center w-full px-5 pl-20">
           <img src='./logo.png' alt='logo' className='w-36 h-36' />
 
-          <div className='flex items-center space-x-4'>
+          <div className='flex items-center space-x-5 pr-5'>
             <a href=''>TRANG CHỦ</a>
             <a href=''>DỊCH VỤ</a>
             <a href=''>SẢN PHẨM</a>
@@ -42,11 +42,11 @@ const Home = () => {
         </div>
       </section>
 
-      <section className='relative bg-[#F6E6CB] py-8 '>
+      <section className='relative bg-[#F6E6CB] py-6 '>
         <div className='flex justify-between items-center px-20 relative '>
-          <div className='absolute left-[18%] top-[3%] w-16 h-16 bg-orange-500 rounded-full ' />
+          <div className='absolute left-[18%] top-[-2%] w-16 h-16 bg-orange-500 rounded-full ' />
           <div className='space-y-8'>
-            <div className='relative z-10 mt-[-50%] mb-[-10px]'>
+            <div className='relative z-10 mt-[-20%] mb-[20px]'>
               <h1 className='font-semibold text-4xl leading-tight'>
                 CHÀO MỪNG <br /> BẠN ĐẾN "QUINN'S BEAUTY"
               </h1>
@@ -65,7 +65,7 @@ const Home = () => {
               </a>
             </div>
 
-            <div className="flex items-center space-x-10 mt-0">
+            <div className="flex items-center space-x-10">
               <div className="flex items-center">
                 <button className="bg-blue-500 text-white px-3 py-2 rounded-l" onClick={handleLike}>
                   <i className="fas fa-thumbs-up mr-2"></i> Lượt thích
@@ -79,23 +79,23 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <div className="flex items-center">
-            <div className="w-83 h-83 rounded-full">
-              <img src="./title.jpg" alt="title" className="w-full h-full object-cover" />
+            <div className="items-center ">
+              <div className="w-82 h-82 pr-1 ">
+                <img src="./title.jpg" alt="title" className="w-[500px] h-[500px] rounded-tl-full rounded-tr-full" />
+              </div>
             </div>
-          </div>
         </div>
       </section>
 
-      <section className='flex justify-center items-center py-5 bg-[#A0937D] text-white'>
-        <div className='flex max-w-5xl'>
-          <img src='./intro-spa.jpg' alt='intro-spa' className='w-80 rounded-xl mt-[-10px] mr-10' />
+      <section className='flex justify-center items-center py-20 bg-[#A0937D] text-white'>
+        <div className='flex max-w-6xl'>
+          <img src='./intro-spa.jpg' alt='intro-spa' className='w-[400px] rounded-xl mt-[-10px] mr-10' />
           <div className='p-5 mt-[-100px]'>
-            <h2 className='text-5xl mb-4 text-black'>QUINN'S BEAUTY</h2>
-            <p className='text-xl mb-6'>
+            <h2 className='text-5xl mt-16 mb-10 text-black'>QUINN'S BEAUTY</h2>
+            <p className='text-xl mb-10'>
               "Đắm mình trong không gian yên bình tại QUINN'S BEAUTY, bạn sẽ được thư giãn với những liệu trình massage truyền thống kết hợp hiện đại độc đáo.
               Với đôi bàn tay ma thuật của các chuyên viên, mọi căng thẳng, mệt mỏi sẽ tan biến, nhường chỗ cho cảm giác sảng khoái, thư thái. 
-              <br />Hãy đến với chúng tôi để trải nghiệm sự hòa quyện giữa thiên nhiên và con người."
+              <br /><br />Hãy đến với chúng tôi để trải nghiệm sự hòa quyện giữa thiên nhiên và con người."
             </p>
             <button className='bg-blue-500 text-white px-4 py-2 rounded'>ĐẶT LỊCH NGAY</button>
           </div>
